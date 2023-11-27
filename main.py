@@ -8,7 +8,7 @@ def main():
 
     ref_id = link.split("=")[-1]
 
-    for _ in range(2):
+    for _ in range(52):
         url = "https://prod.studysmarter.de/users/?="
 
         payload = json.dumps({
